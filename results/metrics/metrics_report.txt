@@ -130,7 +130,7 @@ unmatched       | 7        | 12        | 29      | 0
 
 Method Confusion Matrix CSV Tables
 
-Spreadsheet-ready tables saved in: /Users/gul/Desktop/RESEARCH MODULE/Test_Images/luv_metrics/method_confusion_matrix_tables
+Spreadsheet-ready tables saved in: ./luv_metrics/method_confusion_matrix_tables
 
 Correct Count Metrics Table
 
