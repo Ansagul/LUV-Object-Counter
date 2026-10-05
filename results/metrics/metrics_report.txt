@@ -1,0 +1,194 @@
+Comparison Table
+
+Image                     | Method    | Total Objects | Triangles | Rectangles | Polygons
+--------------------------+-----------+---------------+-----------+------------+---------
+Close_Objects.png         | Grayscale | 4             | 1         | 0          | 3       
+Close_Objects.png         | Fused LUV | 18            | 0         | 3          | 15      
+Close_Up.png              | Grayscale | 14            | 0         | 1          | 13      
+Close_Up.png              | Fused LUV | 17            | 0         | 3          | 14      
+Far_Objects.png           | Grayscale | 0             | 0         | 0          | 0       
+Far_Objects.png           | Fused LUV | 12            | 0         | 8          | 4       
+Low Contrast.png          | Grayscale | 1             | 0         | 1          | 0       
+Low Contrast.png          | Fused LUV | 21            | 1         | 3          | 17      
+Optimal High Contrast.png | Grayscale | 17            | 4         | 4          | 9       
+Optimal High Contrast.png | Fused LUV | 17            | 4         | 4          | 9       
+Shadow_Effect.png         | Grayscale | 9             | 2         | 1          | 6       
+Shadow_Effect.png         | Fused LUV | 10            | 0         | 2          | 8       
+
+LUV Channel Table
+
+Image                     | Channel | Total Objects | Triangles | Rectangles | Polygons
+--------------------------+---------+---------------+-----------+------------+---------
+Close_Objects.png         | L       | 17            | 0         | 3          | 14      
+Close_Objects.png         | u       | 12            | 3         | 4          | 5       
+Close_Objects.png         | v       | 13            | 3         | 3          | 7       
+Close_Up.png              | L       | 1             | 0         | 1          | 0       
+Close_Up.png              | u       | 1             | 0         | 1          | 0       
+Close_Up.png              | v       | 18            | 0         | 2          | 16      
+Far_Objects.png           | L       | 12            | 0         | 7          | 5       
+Far_Objects.png           | u       | 9             | 1         | 5          | 3       
+Far_Objects.png           | v       | 9             | 1         | 4          | 4       
+Low Contrast.png          | L       | 18            | 0         | 1          | 17      
+Low Contrast.png          | u       | 8             | 3         | 2          | 3       
+Low Contrast.png          | v       | 9             | 3         | 3          | 3       
+Optimal High Contrast.png | L       | 17            | 4         | 4          | 9       
+Optimal High Contrast.png | u       | 14            | 3         | 3          | 8       
+Optimal High Contrast.png | v       | 16            | 4         | 4          | 8       
+Shadow_Effect.png         | L       | 10            | 0         | 1          | 9       
+Shadow_Effect.png         | u       | 8             | 1         | 3          | 4       
+Shadow_Effect.png         | v       | 8             | 1         | 1          | 6       
+ALL IMAGES                | L       | 75            | 4         | 17         | 54      
+ALL IMAGES                | u       | 52            | 11        | 18         | 23      
+ALL IMAGES                | v       | 73            | 12        | 17         | 44      
+
+Total Comparison Table
+
+Image Index | Grayscale Total | Merged LUV Total
+------------+-----------------+-----------------
+1           | 4               | 18              
+2           | 14              | 17              
+3           | 0               | 12              
+4           | 1               | 21              
+5           | 17              | 17              
+6           | 9               | 10              
+
+Method Agreement Table
+
+Image                     | Baseline Total | Fused LUV Total | Matched Objects | Baseline Only | LUV Only | Agreement Rate | Mean Match IoU | Shape Agreement | Count Delta
+--------------------------+----------------+-----------------+-----------------+---------------+----------+----------------+----------------+-----------------+------------
+Close_Objects.png         | 4              | 18              | 3               | 1             | 15       | 0.158          | 0.770          | 1.000           | 14         
+Close_Up.png              | 14             | 17              | 1               | 13            | 16       | 0.033          | 0.531          | 0.000           | 3          
+Far_Objects.png           | 0              | 12              | 0               | 0             | 12       | 0.000          | 0.000          | N/A             | 12         
+Low Contrast.png          | 1              | 21              | 0               | 1             | 21       | 0.000          | 0.000          | N/A             | 20         
+Optimal High Contrast.png | 17             | 17              | 17              | 0             | 0        | 1.000          | 0.995          | 1.000           | 0          
+Shadow_Effect.png         | 9              | 10              | 8               | 1             | 2        | 0.727          | 0.802          | 0.875           | 1          
+ALL IMAGES                | 45             | 95              | 29              | 16            | 66       | 0.261          | 0.902          | 0.931           | 50         
+
+LUV Channel Match Table
+
+Image                     | Channel | Baseline Total | Channel Total | Matched Objects | Baseline Only | Channel Only | Agreement Rate | Mean Match IoU | Shape Agreement | Count Delta
+--------------------------+---------+----------------+---------------+-----------------+---------------+--------------+----------------+----------------+-----------------+------------
+Close_Objects.png         | L       | 4              | 17            | 3               | 1             | 14           | 0.167          | 0.770          | 1.000           | 13         
+Close_Objects.png         | u       | 4              | 12            | 1               | 3             | 11           | 0.067          | 0.761          | 1.000           | 8          
+Close_Objects.png         | v       | 4              | 13            | 1               | 3             | 12           | 0.062          | 0.986          | 1.000           | 9          
+Close_Up.png              | L       | 14             | 1             | 1               | 13            | 0            | 0.071          | 0.531          | 0.000           | -13        
+Close_Up.png              | u       | 14             | 1             | 1               | 13            | 0            | 0.071          | 0.414          | 0.000           | -13        
+Close_Up.png              | v       | 14             | 18            | 1               | 13            | 17           | 0.032          | 0.545          | 1.000           | 4          
+Far_Objects.png           | L       | 0              | 12            | 0               | 0             | 12           | 0.000          | 0.000          | N/A             | 12         
+Far_Objects.png           | u       | 0              | 9             | 0               | 0             | 9            | 0.000          | 0.000          | N/A             | 9          
+Far_Objects.png           | v       | 0              | 9             | 0               | 0             | 9            | 0.000          | 0.000          | N/A             | 9          
+Low Contrast.png          | L       | 1              | 18            | 0               | 1             | 18           | 0.000          | 0.000          | N/A             | 17         
+Low Contrast.png          | u       | 1              | 8             | 0               | 1             | 8            | 0.000          | 0.000          | N/A             | 7          
+Low Contrast.png          | v       | 1              | 9             | 0               | 1             | 9            | 0.000          | 0.000          | N/A             | 8          
+Optimal High Contrast.png | L       | 17             | 17            | 17              | 0             | 0            | 1.000          | 0.999          | 1.000           | 0          
+Optimal High Contrast.png | u       | 17             | 14            | 14              | 3             | 0            | 0.824          | 0.996          | 1.000           | -3         
+Optimal High Contrast.png | v       | 17             | 16            | 16              | 1             | 0            | 0.941          | 0.992          | 1.000           | -1         
+Shadow_Effect.png         | L       | 9              | 10            | 8               | 1             | 2            | 0.727          | 0.807          | 0.875           | 1          
+Shadow_Effect.png         | u       | 9              | 8             | 6               | 3             | 2            | 0.545          | 0.845          | 0.833           | -1         
+Shadow_Effect.png         | v       | 9              | 8             | 7               | 2             | 1            | 0.700          | 0.854          | 1.000           | -1         
+ALL IMAGES                | L       | 45             | 75            | 29              | 16            | 46           | 0.319          | 0.906          | 0.931           | 30         
+ALL IMAGES                | u       | 45             | 52            | 22              | 23            | 30           | 0.293          | 0.918          | 0.909           | 7          
+ALL IMAGES                | v       | 45             | 73            | 25              | 20            | 48           | 0.269          | 0.936          | 1.000           | 28         
+
+Overall Method Confusion Matrices
+
+ALL IMAGES - Grayscale vs Fused LUV
+
+Grayscale Shape | triangle | rectangle | polygon | unmatched
+----------------+----------+-----------+---------+----------
+triangle        | 4        | 0         | 1       | 2        
+rectangle       | 0        | 5         | 0       | 2        
+polygon         | 0        | 1         | 18      | 12       
+unmatched       | 1        | 17        | 48      | 0        
+
+ALL IMAGES - Grayscale vs L channel
+
+Grayscale Shape | triangle | rectangle | polygon | unmatched
+----------------+----------+-----------+---------+----------
+triangle        | 4        | 0         | 1       | 2        
+rectangle       | 0        | 5         | 0       | 2        
+polygon         | 0        | 1         | 18      | 12       
+unmatched       | 0        | 11        | 35      | 0        
+
+ALL IMAGES - Grayscale vs u channel
+
+Grayscale Shape | triangle | rectangle | polygon | unmatched
+----------------+----------+-----------+---------+----------
+triangle        | 4        | 0         | 0       | 3        
+rectangle       | 0        | 4         | 0       | 3        
+polygon         | 0        | 2         | 12      | 17       
+unmatched       | 7        | 12        | 11      | 0        
+
+ALL IMAGES - Grayscale vs v channel
+
+Grayscale Shape | triangle | rectangle | polygon | unmatched
+----------------+----------+-----------+---------+----------
+triangle        | 5        | 0         | 0       | 2        
+rectangle       | 0        | 5         | 0       | 2        
+polygon         | 0        | 0         | 15      | 16       
+unmatched       | 7        | 12        | 29      | 0        
+
+Method Confusion Matrix CSV Tables
+
+Spreadsheet-ready tables saved in: /Users/gul/Desktop/RESEARCH MODULE/Test_Images/luv_metrics/method_confusion_matrix_tables
+
+Correct Count Metrics Table
+
+Image                     | Method    | GT Total | Detected Total | Total Error | Absolute Total Error | GT Triangles | Detected Triangles | Triangle Error | GT Rectangles | Detected Rectangles | Rectangle Error | GT Polygons | Detected Polygons | Polygon Error | Shape Abs Error | Exact Total Match | Exact Shape Match
+--------------------------+-----------+----------+----------------+-------------+----------------------+--------------+--------------------+----------------+---------------+---------------------+-----------------+-------------+-------------------+---------------+-----------------+-------------------+------------------
+Close_Objects.png         | Grayscale | 18       | 4              | -14         | 14                   | 4            | 1                  | -3             | 4             | 0                   | -4              | 10          | 3                 | -7            | 14              | No                | No               
+Close_Objects.png         | L channel | 18       | 17             | -1          | 1                    | 4            | 0                  | -4             | 4             | 3                   | -1              | 10          | 14                | 4             | 9               | No                | No               
+Close_Objects.png         | u channel | 18       | 12             | -6          | 6                    | 4            | 3                  | -1             | 4             | 4                   | 0               | 10          | 5                 | -5            | 6               | No                | No               
+Close_Objects.png         | v channel | 18       | 13             | -5          | 5                    | 4            | 3                  | -1             | 4             | 3                   | -1              | 10          | 7                 | -3            | 5               | No                | No               
+Close_Objects.png         | Fused LUV | 18       | 18             | 0           | 0                    | 4            | 0                  | -4             | 4             | 3                   | -1              | 10          | 15                | 5             | 10              | Yes               | No               
+Close_Up.png              | Grayscale | 1        | 14             | 13          | 13                   | 0            | 0                  | 0              | 1             | 1                   | 0               | 0           | 13                | 13            | 13              | No                | No               
+Close_Up.png              | L channel | 1        | 1              | 0           | 0                    | 0            | 0                  | 0              | 1             | 1                   | 0               | 0           | 0                 | 0             | 0               | Yes               | Yes              
+Close_Up.png              | u channel | 1        | 1              | 0           | 0                    | 0            | 0                  | 0              | 1             | 1                   | 0               | 0           | 0                 | 0             | 0               | Yes               | Yes              
+Close_Up.png              | v channel | 1        | 18             | 17          | 17                   | 0            | 0                  | 0              | 1             | 2                   | 1               | 0           | 16                | 16            | 17              | No                | No               
+Close_Up.png              | Fused LUV | 1        | 17             | 16          | 16                   | 0            | 0                  | 0              | 1             | 3                   | 2               | 0           | 14                | 14            | 16              | No                | No               
+Far_Objects.png           | Grayscale | 12       | 0              | -12         | 12                   | 3            | 0                  | -3             | 5             | 0                   | -5              | 4           | 0                 | -4            | 12              | No                | No               
+Far_Objects.png           | L channel | 12       | 12             | 0           | 0                    | 3            | 0                  | -3             | 5             | 7                   | 2               | 4           | 5                 | 1             | 6               | Yes               | No               
+Far_Objects.png           | u channel | 12       | 9              | -3          | 3                    | 3            | 1                  | -2             | 5             | 5                   | 0               | 4           | 3                 | -1            | 3               | No                | No               
+Far_Objects.png           | v channel | 12       | 9              | -3          | 3                    | 3            | 1                  | -2             | 5             | 4                   | -1              | 4           | 4                 | 0             | 3               | No                | No               
+Far_Objects.png           | Fused LUV | 12       | 12             | 0           | 0                    | 3            | 0                  | -3             | 5             | 8                   | 3               | 4           | 4                 | 0             | 6               | Yes               | No               
+Low Contrast.png          | Grayscale | 14       | 1              | -13         | 13                   | 3            | 0                  | -3             | 4             | 1                   | -3              | 7           | 0                 | -7            | 13              | No                | No               
+Low Contrast.png          | L channel | 14       | 18             | 4           | 4                    | 3            | 0                  | -3             | 4             | 1                   | -3              | 7           | 17                | 10            | 16              | No                | No               
+Low Contrast.png          | u channel | 14       | 8              | -6          | 6                    | 3            | 3                  | 0              | 4             | 2                   | -2              | 7           | 3                 | -4            | 6               | No                | No               
+Low Contrast.png          | v channel | 14       | 9              | -5          | 5                    | 3            | 3                  | 0              | 4             | 3                   | -1              | 7           | 3                 | -4            | 5               | No                | No               
+Low Contrast.png          | Fused LUV | 14       | 21             | 7           | 7                    | 3            | 1                  | -2             | 4             | 3                   | -1              | 7           | 17                | 10            | 13              | No                | No               
+Optimal High Contrast.png | Grayscale | 17       | 17             | 0           | 0                    | 4            | 4                  | 0              | 4             | 4                   | 0               | 9           | 9                 | 0             | 0               | Yes               | Yes              
+Optimal High Contrast.png | L channel | 17       | 17             | 0           | 0                    | 4            | 4                  | 0              | 4             | 4                   | 0               | 9           | 9                 | 0             | 0               | Yes               | Yes              
+Optimal High Contrast.png | u channel | 17       | 14             | -3          | 3                    | 4            | 3                  | -1             | 4             | 3                   | -1              | 9           | 8                 | -1            | 3               | No                | No               
+Optimal High Contrast.png | v channel | 17       | 16             | -1          | 1                    | 4            | 4                  | 0              | 4             | 4                   | 0               | 9           | 8                 | -1            | 1               | No                | No               
+Optimal High Contrast.png | Fused LUV | 17       | 17             | 0           | 0                    | 4            | 4                  | 0              | 4             | 4                   | 0               | 9           | 9                 | 0             | 0               | Yes               | Yes              
+Shadow_Effect.png         | Grayscale | 8        | 9              | 1           | 1                    | 1            | 2                  | 1              | 3             | 1                   | -2              | 4           | 6                 | 2             | 5               | No                | No               
+Shadow_Effect.png         | L channel | 8        | 10             | 2           | 2                    | 1            | 0                  | -1             | 3             | 1                   | -2              | 4           | 9                 | 5             | 8               | No                | No               
+Shadow_Effect.png         | u channel | 8        | 8              | 0           | 0                    | 1            | 1                  | 0              | 3             | 3                   | 0               | 4           | 4                 | 0             | 0               | Yes               | Yes              
+Shadow_Effect.png         | v channel | 8        | 8              | 0           | 0                    | 1            | 1                  | 0              | 3             | 1                   | -2              | 4           | 6                 | 2             | 4               | Yes               | No               
+Shadow_Effect.png         | Fused LUV | 8        | 10             | 2           | 2                    | 1            | 0                  | -1             | 3             | 2                   | -1              | 4           | 8                 | 4             | 6               | No                | No               
+ALL IMAGES                | Grayscale | 70       | 45             | -25         | 53                   | 15           | 7                  | -8             | 21            | 7                   | -14             | 34          | 31                | -3            | 57              | 1/6               | 1/6              
+ALL IMAGES                | L channel | 70       | 75             | 5           | 7                    | 15           | 4                  | -11            | 21            | 17                  | -4              | 34          | 54                | 20            | 39              | 3/6               | 2/6              
+ALL IMAGES                | u channel | 70       | 52             | -18         | 18                   | 15           | 11                 | -4             | 21            | 18                  | -3              | 34          | 23                | -11           | 18              | 2/6               | 2/6              
+ALL IMAGES                | v channel | 70       | 73             | 3           | 31                   | 15           | 12                 | -3             | 21            | 17                  | -4              | 34          | 44                | 10            | 35              | 1/6               | 0/6              
+ALL IMAGES                | Fused LUV | 70       | 95             | 25          | 25                   | 15           | 5                  | -10            | 21            | 23                  | 2               | 34          | 67                | 33            | 51              | 3/6               | 1/6              
+
+Baseline vs Fused LUV Accuracy Matrix
+
+Image                     | GT Total | Baseline Total | Baseline Abs Error | Baseline Accuracy (%) | Fused LUV Total | Fused LUV Abs Error | Fused LUV Accuracy (%) | Improvement (pp) | Better Method
+--------------------------+----------+----------------+--------------------+-----------------------+-----------------+---------------------+------------------------+------------------+--------------
+Close_Objects.png         | 18       | 4              | 14                 | 22.222                | 18              | 0                   | 100.000                | 77.778           | Fused LUV    
+Close_Up.png              | 1        | 14             | 13                 | 0.000                 | 17              | 16                  | 0.000                  | 0.000            | Tie          
+Far_Objects.png           | 12       | 0              | 12                 | 0.000                 | 12              | 0                   | 100.000                | 100.000          | Fused LUV    
+Low Contrast.png          | 14       | 1              | 13                 | 7.143                 | 21              | 7                   | 50.000                 | 42.857           | Fused LUV    
+Optimal High Contrast.png | 17       | 17             | 0                  | 100.000               | 17              | 0                   | 100.000                | 0.000            | Tie          
+Shadow_Effect.png         | 8        | 9              | 1                  | 87.500                | 10              | 2                   | 75.000                 | -12.500          | Grayscale    
+ALL IMAGES                | 70       | 45             | 53                 | 24.286                | 95              | 25                  | 64.286                 | 40.000           | Fused LUV    
+
+Saved Accuracy Charts
+
+total_count_accuracy_by_method.png
+exact_match_rate_by_method.png
+count_accuracy_by_image.png
+baseline_vs_luv_accuracy_by_image.png
+baseline_vs_luv_accuracy_gain.png
+baseline_vs_luv_detected_counts.png

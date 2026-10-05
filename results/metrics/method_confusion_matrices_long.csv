@@ -1,0 +1,113 @@
+Matrix,Grayscale Shape,triangle,rectangle,polygon,unmatched
+Close_Objects.png - Grayscale vs Fused LUV,triangle,0,0,0,1
+Close_Objects.png - Grayscale vs Fused LUV,rectangle,0,0,0,0
+Close_Objects.png - Grayscale vs Fused LUV,polygon,0,0,3,0
+Close_Objects.png - Grayscale vs Fused LUV,unmatched,0,3,12,0
+Close_Objects.png - Grayscale vs L channel,triangle,0,0,0,1
+Close_Objects.png - Grayscale vs L channel,rectangle,0,0,0,0
+Close_Objects.png - Grayscale vs L channel,polygon,0,0,3,0
+Close_Objects.png - Grayscale vs L channel,unmatched,0,3,11,0
+Close_Objects.png - Grayscale vs u channel,triangle,0,0,0,1
+Close_Objects.png - Grayscale vs u channel,rectangle,0,0,0,0
+Close_Objects.png - Grayscale vs u channel,polygon,0,0,1,2
+Close_Objects.png - Grayscale vs u channel,unmatched,3,4,4,0
+Close_Objects.png - Grayscale vs v channel,triangle,0,0,0,1
+Close_Objects.png - Grayscale vs v channel,rectangle,0,0,0,0
+Close_Objects.png - Grayscale vs v channel,polygon,0,0,1,2
+Close_Objects.png - Grayscale vs v channel,unmatched,3,3,6,0
+Close_Up.png - Grayscale vs Fused LUV,triangle,0,0,0,0
+Close_Up.png - Grayscale vs Fused LUV,rectangle,0,0,0,1
+Close_Up.png - Grayscale vs Fused LUV,polygon,0,1,0,12
+Close_Up.png - Grayscale vs Fused LUV,unmatched,0,2,14,0
+Close_Up.png - Grayscale vs L channel,triangle,0,0,0,0
+Close_Up.png - Grayscale vs L channel,rectangle,0,0,0,1
+Close_Up.png - Grayscale vs L channel,polygon,0,1,0,12
+Close_Up.png - Grayscale vs L channel,unmatched,0,0,0,0
+Close_Up.png - Grayscale vs u channel,triangle,0,0,0,0
+Close_Up.png - Grayscale vs u channel,rectangle,0,0,0,1
+Close_Up.png - Grayscale vs u channel,polygon,0,1,0,12
+Close_Up.png - Grayscale vs u channel,unmatched,0,0,0,0
+Close_Up.png - Grayscale vs v channel,triangle,0,0,0,0
+Close_Up.png - Grayscale vs v channel,rectangle,0,0,0,1
+Close_Up.png - Grayscale vs v channel,polygon,0,0,1,12
+Close_Up.png - Grayscale vs v channel,unmatched,0,2,15,0
+Far_Objects.png - Grayscale vs Fused LUV,triangle,0,0,0,0
+Far_Objects.png - Grayscale vs Fused LUV,rectangle,0,0,0,0
+Far_Objects.png - Grayscale vs Fused LUV,polygon,0,0,0,0
+Far_Objects.png - Grayscale vs Fused LUV,unmatched,0,8,4,0
+Far_Objects.png - Grayscale vs L channel,triangle,0,0,0,0
+Far_Objects.png - Grayscale vs L channel,rectangle,0,0,0,0
+Far_Objects.png - Grayscale vs L channel,polygon,0,0,0,0
+Far_Objects.png - Grayscale vs L channel,unmatched,0,7,5,0
+Far_Objects.png - Grayscale vs u channel,triangle,0,0,0,0
+Far_Objects.png - Grayscale vs u channel,rectangle,0,0,0,0
+Far_Objects.png - Grayscale vs u channel,polygon,0,0,0,0
+Far_Objects.png - Grayscale vs u channel,unmatched,1,5,3,0
+Far_Objects.png - Grayscale vs v channel,triangle,0,0,0,0
+Far_Objects.png - Grayscale vs v channel,rectangle,0,0,0,0
+Far_Objects.png - Grayscale vs v channel,polygon,0,0,0,0
+Far_Objects.png - Grayscale vs v channel,unmatched,1,4,4,0
+Low Contrast.png - Grayscale vs Fused LUV,triangle,0,0,0,0
+Low Contrast.png - Grayscale vs Fused LUV,rectangle,0,0,0,1
+Low Contrast.png - Grayscale vs Fused LUV,polygon,0,0,0,0
+Low Contrast.png - Grayscale vs Fused LUV,unmatched,1,3,17,0
+Low Contrast.png - Grayscale vs L channel,triangle,0,0,0,0
+Low Contrast.png - Grayscale vs L channel,rectangle,0,0,0,1
+Low Contrast.png - Grayscale vs L channel,polygon,0,0,0,0
+Low Contrast.png - Grayscale vs L channel,unmatched,0,1,17,0
+Low Contrast.png - Grayscale vs u channel,triangle,0,0,0,0
+Low Contrast.png - Grayscale vs u channel,rectangle,0,0,0,1
+Low Contrast.png - Grayscale vs u channel,polygon,0,0,0,0
+Low Contrast.png - Grayscale vs u channel,unmatched,3,2,3,0
+Low Contrast.png - Grayscale vs v channel,triangle,0,0,0,0
+Low Contrast.png - Grayscale vs v channel,rectangle,0,0,0,1
+Low Contrast.png - Grayscale vs v channel,polygon,0,0,0,0
+Low Contrast.png - Grayscale vs v channel,unmatched,3,3,3,0
+Optimal High Contrast.png - Grayscale vs Fused LUV,triangle,4,0,0,0
+Optimal High Contrast.png - Grayscale vs Fused LUV,rectangle,0,4,0,0
+Optimal High Contrast.png - Grayscale vs Fused LUV,polygon,0,0,9,0
+Optimal High Contrast.png - Grayscale vs Fused LUV,unmatched,0,0,0,0
+Optimal High Contrast.png - Grayscale vs L channel,triangle,4,0,0,0
+Optimal High Contrast.png - Grayscale vs L channel,rectangle,0,4,0,0
+Optimal High Contrast.png - Grayscale vs L channel,polygon,0,0,9,0
+Optimal High Contrast.png - Grayscale vs L channel,unmatched,0,0,0,0
+Optimal High Contrast.png - Grayscale vs u channel,triangle,3,0,0,1
+Optimal High Contrast.png - Grayscale vs u channel,rectangle,0,3,0,1
+Optimal High Contrast.png - Grayscale vs u channel,polygon,0,0,8,1
+Optimal High Contrast.png - Grayscale vs u channel,unmatched,0,0,0,0
+Optimal High Contrast.png - Grayscale vs v channel,triangle,4,0,0,0
+Optimal High Contrast.png - Grayscale vs v channel,rectangle,0,4,0,0
+Optimal High Contrast.png - Grayscale vs v channel,polygon,0,0,8,1
+Optimal High Contrast.png - Grayscale vs v channel,unmatched,0,0,0,0
+Shadow_Effect.png - Grayscale vs Fused LUV,triangle,0,0,1,1
+Shadow_Effect.png - Grayscale vs Fused LUV,rectangle,0,1,0,0
+Shadow_Effect.png - Grayscale vs Fused LUV,polygon,0,0,6,0
+Shadow_Effect.png - Grayscale vs Fused LUV,unmatched,0,1,1,0
+Shadow_Effect.png - Grayscale vs L channel,triangle,0,0,1,1
+Shadow_Effect.png - Grayscale vs L channel,rectangle,0,1,0,0
+Shadow_Effect.png - Grayscale vs L channel,polygon,0,0,6,0
+Shadow_Effect.png - Grayscale vs L channel,unmatched,0,0,2,0
+Shadow_Effect.png - Grayscale vs u channel,triangle,1,0,0,1
+Shadow_Effect.png - Grayscale vs u channel,rectangle,0,1,0,0
+Shadow_Effect.png - Grayscale vs u channel,polygon,0,1,3,2
+Shadow_Effect.png - Grayscale vs u channel,unmatched,0,1,1,0
+Shadow_Effect.png - Grayscale vs v channel,triangle,1,0,0,1
+Shadow_Effect.png - Grayscale vs v channel,rectangle,0,1,0,0
+Shadow_Effect.png - Grayscale vs v channel,polygon,0,0,5,1
+Shadow_Effect.png - Grayscale vs v channel,unmatched,0,0,1,0
+ALL IMAGES - Grayscale vs Fused LUV,triangle,4,0,1,2
+ALL IMAGES - Grayscale vs Fused LUV,rectangle,0,5,0,2
+ALL IMAGES - Grayscale vs Fused LUV,polygon,0,1,18,12
+ALL IMAGES - Grayscale vs Fused LUV,unmatched,1,17,48,0
+ALL IMAGES - Grayscale vs L channel,triangle,4,0,1,2
+ALL IMAGES - Grayscale vs L channel,rectangle,0,5,0,2
+ALL IMAGES - Grayscale vs L channel,polygon,0,1,18,12
+ALL IMAGES - Grayscale vs L channel,unmatched,0,11,35,0
+ALL IMAGES - Grayscale vs u channel,triangle,4,0,0,3
+ALL IMAGES - Grayscale vs u channel,rectangle,0,4,0,3
+ALL IMAGES - Grayscale vs u channel,polygon,0,2,12,17
+ALL IMAGES - Grayscale vs u channel,unmatched,7,12,11,0
+ALL IMAGES - Grayscale vs v channel,triangle,5,0,0,2
+ALL IMAGES - Grayscale vs v channel,rectangle,0,5,0,2
+ALL IMAGES - Grayscale vs v channel,polygon,0,0,15,16
+ALL IMAGES - Grayscale vs v channel,unmatched,7,12,29,0

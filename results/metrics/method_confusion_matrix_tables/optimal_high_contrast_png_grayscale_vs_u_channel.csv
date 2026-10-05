@@ -1,0 +1,5 @@
+Grayscale Shape,triangle,rectangle,polygon,unmatched
+triangle,3,0,0,1
+rectangle,0,3,0,1
+polygon,0,0,8,1
+unmatched,0,0,0,0

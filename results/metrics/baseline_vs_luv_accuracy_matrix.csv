@@ -1,0 +1,8 @@
+Image,GT Total,Baseline Total,Baseline Abs Error,Baseline Accuracy (%),Fused LUV Total,Fused LUV Abs Error,Fused LUV Accuracy (%),Improvement (pp),Better Method
+Close_Objects.png,18,4,14,22.22222222222222,18,0,100.0,77.77777777777777,Fused LUV
+Close_Up.png,1,14,13,0.0,17,16,0.0,0.0,Tie
+Far_Objects.png,12,0,12,0.0,12,0,100.0,100.0,Fused LUV
+Low Contrast.png,14,1,13,7.14285714285714,21,7,50.0,42.85714285714286,Fused LUV
+Optimal High Contrast.png,17,17,0,100.0,17,0,100.0,0.0,Tie
+Shadow_Effect.png,8,9,1,87.5,10,2,75.0,-12.5,Grayscale
+ALL IMAGES,70,45,53,24.28571428571429,95,25,64.28571428571428,39.999999999999986,Fused LUV

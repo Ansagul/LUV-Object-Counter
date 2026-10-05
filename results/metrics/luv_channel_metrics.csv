@@ -1,0 +1,22 @@
+Image,Channel,Total Objects,Triangles,Rectangles,Polygons
+Close_Objects.png,L,17,0,3,14
+Close_Objects.png,u,12,3,4,5
+Close_Objects.png,v,13,3,3,7
+Close_Up.png,L,1,0,1,0
+Close_Up.png,u,1,0,1,0
+Close_Up.png,v,18,0,2,16
+Far_Objects.png,L,12,0,7,5
+Far_Objects.png,u,9,1,5,3
+Far_Objects.png,v,9,1,4,4
+Low Contrast.png,L,18,0,1,17
+Low Contrast.png,u,8,3,2,3
+Low Contrast.png,v,9,3,3,3
+Optimal High Contrast.png,L,17,4,4,9
+Optimal High Contrast.png,u,14,3,3,8
+Optimal High Contrast.png,v,16,4,4,8
+Shadow_Effect.png,L,10,0,1,9
+Shadow_Effect.png,u,8,1,3,4
+Shadow_Effect.png,v,8,1,1,6
+ALL IMAGES,L,75,4,17,54
+ALL IMAGES,u,52,11,18,23
+ALL IMAGES,v,73,12,17,44

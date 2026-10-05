@@ -1,0 +1,13 @@
+Image,Method,Total Objects,Triangles,Rectangles,Polygons
+Close_Objects.png,Grayscale,4,1,0,3
+Close_Objects.png,Fused LUV,18,0,3,15
+Close_Up.png,Grayscale,14,0,1,13
+Close_Up.png,Fused LUV,17,0,3,14
+Far_Objects.png,Grayscale,0,0,0,0
+Far_Objects.png,Fused LUV,12,0,8,4
+Low Contrast.png,Grayscale,1,0,1,0
+Low Contrast.png,Fused LUV,21,1,3,17
+Optimal High Contrast.png,Grayscale,17,4,4,9
+Optimal High Contrast.png,Fused LUV,17,4,4,9
+Shadow_Effect.png,Grayscale,9,2,1,6
+Shadow_Effect.png,Fused LUV,10,0,2,8
